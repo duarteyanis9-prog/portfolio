@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio de Yanis Duarte - Étudiant BTS SIO SISR à l'EFREI Paris. Infra, réseaux, DevOps." />
+  <meta name="theme-color" content="#0d0d0d" />
+  <title>Yanis Duarte | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <a href="index.html" class="nav-logo">YD</a>
+    <ul class="nav-links">
+      <li><a href="#home">Accueil</a></li>
+      <li><a href="#about">Qui je suis</a></li>
+      <li><a href="#skills">Compétences</a></li>
+      <li><a href="projects.html">Projets</a></li>
+      <li><a href="tableau-synthese.html">Tableau de Synthèse</a></li>
+      <li><a href="cv.html">Mon CV</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle">☰</button>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-bg-text">YANIS</div>
+    <div class="hero-content">
+      <p class="hero-greeting">Salut, moi c'est</p>
+      <h1 class="hero-name">Yanis <span class="accent">Duarte</span></h1>
+      <div class="hero-typed">
+        <span id="typed"></span><span class="cursor-blink">|</span>
+      </div>
+      <p class="hero-desc">Étudiant en BTS SIO option SISR à l'EFREI Paris, passionné par les réseaux, l'infrastructure et le DevOps. Déterminé, ambitieux, et toujours en train de construire quelque chose.</p>
+      <div class="hero-btns">
+        <a href="#about" class="btn-primary">En savoir plus</a>
+        <a href="projects.html" class="btn-outline">Mes projets</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/duarteyanis9-prog" target="_blank" title="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+        </a>
+        <a href="mailto:duarteyanis9@gmail.com" title="Email">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="section-number">01.</div>
+    <h2 class="section-title">Qui je suis</h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>Je suis quelqu'un de déterminé et ambitieux — le genre de personne qui fixe un objectif et fait tout pour l'atteindre. Le sport quotidien, la course à pied, la rigueur dans mon travail : tout ça fait partie de ma façon d'avancer.</p>
+        <p>Actuellement en BTS SIO SISR à l'EFREI Paris, je touche à tout : réseaux, serveurs Linux, virtualisation, déploiement... mais je ne me limite pas à l'informatique. Mon objectif à long terme ? Devenir pilote.</p>
+        <p>Ce qui me définit le mieux ? La persévérance. Quand je commence quelque chose, je le termine.</p>
+      </div>
+      <div class="about-cards">
+        <div class="about-card">
+          <span class="about-card-icon">🎯</span>
+          <h3>Infra & Réseaux</h3>
+          <p>Linux, Apache, GLPI, virtualisation VMware — l'infrastructure c'est mon terrain.</p>
+        </div>
+        <div class="about-card">
+          <span class="about-card-icon">🚀</span>
+          <h3>DevOps</h3>
+          <p>Docker, GitHub, déploiement continu. J'aime automatiser et optimiser les process.</p>
+        </div>
+        <div class="about-card">
+          <span class="about-card-icon">✈️</span>
+          <h3>Projet Pilote</h3>
+          <p>Préparation BIA, objectif CNFAS et PPL. L'aviation est ma passion de longue date.</p>
+        </div>
+        <div class="about-card">
+          <span class="about-card-icon">💪</span>
+          <h3>Sport & Discipline</h3>
+          <p>Running quotidien, sport régulier. La discipline physique nourrit la discipline mentale.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section section-dark">
+    <div class="section-number">02.</div>
+    <h2 class="section-title">Mes Compétences</h2>
+    <div class="skills-tabs">
+      <button class="skill-tab active" data-tab="infra">Infrastructure</button>
+      <button class="skill-tab" data-tab="dev">Développement</button>
+      <button class="skill-tab" data-tab="outils">Outils</button>
+    </div>
+    <div class="skills-content" id="tab-infra">
+      <div class="skill-item"><span>Linux / Debian</span><div class="skill-bar"><div class="skill-fill" style="--w:80%"></div></div><span class="skill-pct">80%</span></div>
+      <div class="skill-item"><span>Réseaux TCP/IP</span><div class="skill-bar"><div class="skill-fill" style="--w:75%"></div></div><span class="skill-pct">75%</span></div>
+      <div class="skill-item"><span>VMware / VirtualBox</span><div class="skill-bar"><div class="skill-fill" style="--w:80%"></div></div><span class="skill-pct">80%</span></div>
+      <div class="skill-item"><span>Apache / Nginx</span><div class="skill-bar"><div class="skill-fill" style="--w:75%"></div></div><span class="skill-pct">75%</span></div>
+      <div class="skill-item"><span>GLPI</span><div class="skill-bar"><div class="skill-fill" style="--w:85%"></div></div><span class="skill-pct">85%</span></div>
+      <div class="skill-item"><span>Docker</span><div class="skill-bar"><div class="skill-fill" style="--w:55%"></div></div><span class="skill-pct">55%</span></div>
+    </div>
+    <div class="skills-content hidden" id="tab-dev">
+      <div class="skill-item"><span>HTML / CSS</span><div class="skill-bar"><div class="skill-fill" style="--w:80%"></div></div><span class="skill-pct">80%</span></div>
+      <div class="skill-item"><span>JavaScript</span><div class="skill-bar"><div class="skill-fill" style="--w:60%"></div></div><span class="skill-pct">60%</span></div>
+      <div class="skill-item"><span>PHP</span><div class="skill-bar"><div class="skill-fill" style="--w:55%"></div></div><span class="skill-pct">55%</span></div>
+      <div class="skill-item"><span>Python</span><div class="skill-bar"><div class="skill-fill" style="--w:60%"></div></div><span class="skill-pct">60%</span></div>
+      <div class="skill-item"><span>SQL / MariaDB</span><div class="skill-bar"><div class="skill-fill" style="--w:65%"></div></div><span class="skill-pct">65%</span></div>
+    </div>
+    <div class="skills-content hidden" id="tab-outils">
+      <div class="skill-item"><span>Git / GitHub</span><div class="skill-bar"><div class="skill-fill" style="--w:75%"></div></div><span class="skill-pct">75%</span></div>
+      <div class="skill-item"><span>VS Code</span><div class="skill-bar"><div class="skill-fill" style="--w:85%"></div></div><span class="skill-pct">85%</span></div>
+      <div class="skill-item"><span>Terminal / CLI</span><div class="skill-bar"><div class="skill-fill" style="--w:80%"></div></div><span class="skill-pct">80%</span></div>
+      <div class="skill-item"><span>Google Analytics</span><div class="skill-bar"><div class="skill-fill" style="--w:60%"></div></div><span class="skill-pct">60%</span></div>
+      <div class="skill-item"><span>FileZilla / FTP</span><div class="skill-bar"><div class="skill-fill" style="--w:70%"></div></div><span class="skill-pct">70%</span></div>
+    </div>
+  </section>
+
+  <!-- TABLEAU SYNTHESE PREVIEW -->
+  <section id="synthese" class="section">
+    <div class="section-number">03.</div>
+    <h2 class="section-title">Tableau de Synthèse BTS SIO</h2>
+    <p class="section-desc">Mon parcours en BTS SIO, trié et organisé. Toutes les compétences couvertes, les projets associés et les documentations.</p>
+    <div class="synthese-stats">
+      <div class="synth-stat"><span class="synth-num accent">5</span><span class="synth-label">Compétences validées</span></div>
+      <div class="synth-stat"><span class="synth-num accent">4</span><span class="synth-label">Livrables à 100%</span></div>
+      <div class="synth-stat"><span class="synth-num accent">1</span><span class="synth-label">Projet Hackathon</span></div>
+      <div class="synth-stat"><span class="synth-num accent">SISR</span><span class="synth-label">Option choisie</span></div>
+    </div>
+    <a href="tableau-synthese.html" class="btn-primary">Voir le tableau complet</a>
+  </section>
+
+  <!-- PARCOURS -->
+  <section id="parcours" class="section section-dark">
+    <div class="section-number">04.</div>
+    <h2 class="section-title">Mon Parcours</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-date">2025 – Présent</div>
+        <div class="timeline-content">
+          <h3>BTS SIO SISR – EFREI Paris</h3>
+          <p>Formation en Services Informatiques aux Organisations, option SISR. Grande école d'ingénieurs informatique habilitée par la CTI — Villejuif.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">2025</div>
+        <div class="timeline-content">
+          <h3>Hackathon NOVA – EFREI</h3>
+          <p>Projet en équipe de 8 personnes. Plateforme événementielle complète déployée sur alwaysdata. Rôle : Infrastructure & DevOps.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">2024</div>
+        <div class="timeline-content">
+          <h3>Bac Pro Vente – Lycée Marianne</h3>
+          <p>Obtention du Baccalauréat Professionnel. Chef-d'œuvre : organisation d'un job dating au lycée. Missions TPO et prospection pour le salon de Lille.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="section-number">05.</div>
+    <h2 class="section-title">Me Contacter</h2>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h3>Viens, on discute !</h3>
+        <p>Que ce soit pour un projet, une alternance, une question technique ou juste échanger — hésite pas à me contacter.</p>
+        <div class="contact-items">
+          <a href="mailto:duarteyanis9@gmail.com" class="contact-item">
+            <span>📧</span> duarteyanis9@gmail.com
+          </a>
+          <a href="https://github.com/duarteyanis9-prog" target="_blank" class="contact-item">
+            <span>💻</span> github.com/duarteyanis9-prog
+          </a>
+          <div class="contact-item">
+            <span>📍</span> Vitry-sur-Seine, 94400
+          </div>
+        </div>
+      </div>
+      <form class="contact-form" onsubmit="return false;">
+        <input type="text" placeholder="Ton nom" class="form-input" />
+        <input type="email" placeholder="Ton email" class="form-input" />
+        <input type="text" placeholder="Sujet" class="form-input" />
+        <textarea placeholder="Ton message..." class="form-input form-textarea"></textarea>
+        <button type="submit" class="btn-primary">Envoyer</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">YD</div>
+    <p class="footer-copy">Conçu et développé avec <span class="accent">♥</span> par Yanis Duarte</p>
+    <p class="footer-copy">© 2026 — Tous droits réservés</p>
+  </footer>
+
+  <script>
+    // Typed effect
+    const words = ["Étudiant BTS SIO SISR", "Infra & Réseaux", "Futur Pilote ✈️", "DevOps Enthusiast"];
+    let wi = 0, ci = 0, del = false;
+    const el = document.getElementById('typed');
+    function type() {
+      const w = words[wi];
+      if (!del) { el.textContent = w.slice(0, ++ci); if (ci === w.length) { del = true; setTimeout(type, 1500); return; } }
+      else { el.textContent = w.slice(0, --ci); if (ci === 0) { del = false; wi = (wi + 1) % words.length; } }
+      setTimeout(type, del ? 60 : 100);
+    }
+    type();
+
+    // Navbar scroll
+    window.addEventListener('scroll', () => {
+      document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // Skills tabs
+    document.querySelectorAll('.skill-tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        document.querySelectorAll('.skill-tab').forEach(t => t.classList.remove('active'));
+        document.querySelectorAll('.skills-content').forEach(c => c.classList.add('hidden'));
+        tab.classList.add('active');
+        document.getElementById('tab-' + tab.dataset.tab).classList.remove('hidden');
+      });
+    });
+
+    // Animate skill bars on scroll
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) e.target.querySelectorAll('.skill-fill').forEach(f => f.style.width = f.style.getPropertyValue('--w'));
+      });
+    }, { threshold: 0.3 });
+    document.querySelectorAll('.skills-content').forEach(s => observer.observe(s));
+
+    // Mobile nav
+    document.getElementById('navToggle').addEventListener('click', () => {
+      document.querySelector('.nav-links').classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
+/* ===== RESET & BASE ===== */
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+:root {
+  --black: #0d0d0d;
+  --dark: #111113;
+  --dark2: #1a1a1e;
+  --green: #39ff14;
+  --green-dim: rgba(57,255,20,0.15);
+  --green-border: rgba(57,255,20,0.25);
+  --white: #e8e8e8;
+  --gray: #888;
+  --border: rgba(255,255,255,0.07);
+  --font: 'Space Grotesk', sans-serif;
+  --mono: 'Space Mono', monospace;
+}
+html { scroll-behavior: smooth; }
+body { background: var(--black); color: var(--white); font-family: var(--font); overflow-x: hidden; line-height: 1.6; }
+a { text-decoration: none; color: inherit; }
+.accent { color: var(--green); }
+.hidden { display: none !important; }
+
+/* ===== NAVBAR ===== */
+#navbar {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 20px 60px;
+  transition: background 0.3s, padding 0.3s;
+}
+#navbar.scrolled { background: rgba(13,13,13,0.95); backdrop-filter: blur(20px); padding: 14px 60px; border-bottom: 1px solid var(--border); }
+.nav-logo { font-family: var(--mono); font-size: 22px; font-weight: 700; color: var(--green); letter-spacing: 2px; }
+.nav-links { display: flex; gap: 32px; list-style: none; }
+.nav-links a { font-size: 13px; font-weight: 400; color: rgba(232,232,232,0.6); letter-spacing: 0.5px; transition: color 0.3s; }
+.nav-links a:hover { color: var(--green); }
+.nav-toggle { display: none; background: none; border: none; color: var(--white); font-size: 22px; cursor: pointer; }
+
+/* ===== BUTTONS ===== */
+.btn-primary {
+  display: inline-block; background: var(--green); color: var(--black);
+  padding: 14px 36px; font-family: var(--font); font-size: 13px; font-weight: 600;
+  letter-spacing: 1px; text-transform: uppercase; border: none; cursor: pointer;
+  transition: box-shadow 0.3s, transform 0.2s;
+  clip-path: polygon(8px 0%, 100% 0%, calc(100% - 8px) 100%, 0% 100%);
+}
+.btn-primary:hover { box-shadow: 0 0 30px rgba(57,255,20,0.4); transform: translateY(-2px); }
+.btn-outline {
+  display: inline-block; background: transparent; color: var(--green);
+  padding: 14px 36px; font-family: var(--font); font-size: 13px; font-weight: 600;
+  letter-spacing: 1px; text-transform: uppercase; border: 1px solid var(--green-border);
+  cursor: pointer; transition: background 0.3s, border-color 0.3s;
+}
+.btn-outline:hover { background: var(--green-dim); border-color: var(--green); }
+
+/* ===== HERO ===== */
+.hero {
+  min-height: 100vh; display: flex; align-items: center; justify-content: center;
+  padding: 120px 60px 80px; position: relative; overflow: hidden;
+}
+.hero-bg-text {
+  position: absolute; font-family: var(--mono); font-size: 28vw; font-weight: 700;
+  color: rgba(57,255,20,0.03); line-height: 1; top: 50%; left: 50%;
+  transform: translate(-50%, -50%); white-space: nowrap; pointer-events: none;
+  letter-spacing: -10px;
+}
+.hero-content { max-width: 700px; position: relative; z-index: 1; }
+.hero-greeting { font-family: var(--mono); font-size: 14px; color: var(--green); letter-spacing: 3px; text-transform: uppercase; margin-bottom: 16px; opacity: 0; animation: fadeUp 0.7s ease 0.2s forwards; }
+.hero-name { font-size: clamp(48px, 7vw, 96px); font-weight: 700; line-height: 1; margin-bottom: 20px; opacity: 0; animation: fadeUp 0.7s ease 0.4s forwards; }
+.hero-typed { font-family: var(--mono); font-size: 18px; color: var(--green); margin-bottom: 24px; min-height: 28px; opacity: 0; animation: fadeUp 0.7s ease 0.6s forwards; }
+.cursor-blink { animation: blink 1s infinite; }
+@keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+.hero-desc { font-size: 16px; color: rgba(232,232,232,0.55); max-width: 520px; line-height: 1.8; margin-bottom: 40px; opacity: 0; animation: fadeUp 0.7s ease 0.8s forwards; }
+.hero-btns { display: flex; gap: 16px; flex-wrap: wrap; opacity: 0; animation: fadeUp 0.7s ease 1s forwards; }
+.hero-socials { display: flex; gap: 20px; margin-top: 40px; opacity: 0; animation: fadeUp 0.7s ease 1.1s forwards; }
+.hero-socials a { width: 40px; height: 40px; border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; color: var(--gray); transition: color 0.3s, border-color 0.3s; }
+.hero-socials a:hover { color: var(--green); border-color: var(--green-border); }
+.hero-socials svg { width: 18px; height: 18px; }
+.scroll-hint { position: absolute; bottom: 40px; left: 60px; display: flex; flex-direction: column; align-items: center; gap: 8px; opacity: 0.4; }
+.scroll-hint span { font-family: var(--mono); font-size: 10px; letter-spacing: 3px; text-transform: uppercase; writing-mode: vertical-rl; }
+.scroll-line { width: 1px; height: 50px; background: linear-gradient(to bottom, var(--green), transparent); }
+
+/* ===== SECTIONS ===== */
+.section { padding: 100px 60px; position: relative; max-width: 1200px; margin: 0 auto; }
+.section-dark { background: var(--dark); max-width: 100%; padding: 100px 60px; }
+.section-dark > * { max-width: 1200px; margin-left: auto; margin-right: auto; }
+.section-number { font-family: var(--mono); font-size: 12px; color: var(--green); letter-spacing: 3px; margin-bottom: 8px; }
+.section-title { font-size: clamp(32px, 4vw, 52px); font-weight: 700; margin-bottom: 48px; position: relative; display: inline-block; }
+.section-title::after { content: ''; position: absolute; bottom: -8px; left: 0; width: 40px; height: 3px; background: var(--green); }
+.section-desc { font-size: 16px; color: rgba(232,232,232,0.55); max-width: 600px; margin-bottom: 48px; line-height: 1.8; }
+
+/* ===== ABOUT ===== */
+.about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: start; }
+.about-text p { font-size: 15px; color: rgba(232,232,232,0.65); line-height: 1.9; margin-bottom: 20px; }
+.about-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.about-card { background: var(--dark); border: 1px solid var(--border); padding: 24px; transition: border-color 0.3s, transform 0.3s; }
+.about-card:hover { border-color: var(--green-border); transform: translateY(-4px); }
+.about-card-icon { font-size: 28px; display: block; margin-bottom: 12px; }
+.about-card h3 { font-size: 15px; font-weight: 600; margin-bottom: 8px; color: var(--white); }
+.about-card p { font-size: 13px; color: var(--gray); line-height: 1.6; }
+
+/* ===== SKILLS ===== */
+.skills-tabs { display: flex; gap: 0; margin-bottom: 40px; border-bottom: 1px solid var(--border); }
+.skill-tab { background: none; border: none; border-bottom: 2px solid transparent; padding: 12px 28px; font-family: var(--font); font-size: 13px; font-weight: 500; color: var(--gray); cursor: pointer; letter-spacing: 1px; text-transform: uppercase; transition: color 0.3s, border-color 0.3s; margin-bottom: -1px; }
+.skill-tab.active { color: var(--green); border-bottom-color: var(--green); }
+.skill-tab:hover { color: var(--white); }
+.skills-content { max-width: 700px; }
+.skill-item { display: grid; grid-template-columns: 180px 1fr 40px; align-items: center; gap: 16px; margin-bottom: 20px; }
+.skill-item > span:first-child { font-size: 14px; font-weight: 500; }
+.skill-bar { height: 4px; background: var(--dark2); position: relative; overflow: hidden; }
+.skill-fill { height: 100%; background: linear-gradient(to right, var(--green), rgba(57,255,20,0.5)); width: 0; transition: width 1.2s cubic-bezier(0.4,0,0.2,1); }
+.skill-pct { font-family: var(--mono); font-size: 12px; color: var(--green); text-align: right; }
+
+/* ===== SYNTHESE ===== */
+.synthese-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin-bottom: 40px; }
+.synth-stat { background: var(--dark); border: 1px solid var(--border); padding: 32px 24px; text-align: center; border-top: 3px solid var(--green); }
+.synth-num { display: block; font-family: var(--mono); font-size: 42px; font-weight: 700; line-height: 1; margin-bottom: 8px; }
+.synth-label { font-size: 12px; color: var(--gray); letter-spacing: 1px; text-transform: uppercase; }
+
+/* ===== TIMELINE ===== */
+.timeline { position: relative; padding-left: 40px; }
+.timeline::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 1px; background: linear-gradient(to bottom, var(--green), transparent); }
+.timeline-item { position: relative; margin-bottom: 48px; }
+.timeline-item::before { content: ''; position: absolute; left: -44px; top: 6px; width: 10px; height: 10px; background: var(--green); border-radius: 50%; box-shadow: 0 0 10px var(--green); }
+.timeline-date { font-family: var(--mono); font-size: 12px; color: var(--green); letter-spacing: 2px; margin-bottom: 8px; text-transform: uppercase; }
+.timeline-content h3 { font-size: 18px; font-weight: 600; margin-bottom: 8px; }
+.timeline-content p { font-size: 14px; color: var(--gray); line-height: 1.7; }
+
+/* ===== CONTACT ===== */
+.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; }
+.contact-info h3 { font-size: 24px; font-weight: 700; margin-bottom: 16px; }
+.contact-info > p { font-size: 15px; color: rgba(232,232,232,0.55); margin-bottom: 32px; line-height: 1.8; }
+.contact-items { display: flex; flex-direction: column; gap: 16px; }
+.contact-item { display: flex; align-items: center; gap: 12px; font-size: 14px; color: rgba(232,232,232,0.7); transition: color 0.3s; }
+.contact-item:hover { color: var(--green); }
+.contact-form { display: flex; flex-direction: column; gap: 16px; }
+.form-input { background: var(--dark); border: 1px solid var(--border); padding: 14px 18px; color: var(--white); font-family: var(--font); font-size: 14px; outline: none; transition: border-color 0.3s; }
+.form-input:focus { border-color: var(--green-border); }
+.form-input::placeholder { color: rgba(255,255,255,0.25); }
+.form-textarea { min-height: 120px; resize: vertical; }
+
+/* ===== FOOTER ===== */
+footer { border-top: 1px solid var(--border); padding: 40px 60px; text-align: center; }
+.footer-logo { font-family: var(--mono); font-size: 28px; font-weight: 700; color: var(--green); margin-bottom: 12px; }
+.footer-copy { font-size: 13px; color: var(--gray); margin-top: 6px; }
+
+/* ===== PROJECT CARDS (shared) ===== */
+.projects-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.project-card { background: var(--dark); border: 1px solid var(--border); padding: 32px; position: relative; overflow: hidden; transition: border-color 0.3s, transform 0.3s; }
+.project-card:hover { border-color: var(--green-border); transform: translateY(-6px); }
+.project-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--green); transform: scaleX(0); transition: transform 0.3s; }
+.project-card:hover::before { transform: scaleX(1); }
+.project-badge { font-family: var(--mono); font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: var(--green); margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
+.project-badge::before { content: ''; width: 24px; height: 1px; background: var(--green); }
+.project-title { font-size: 20px; font-weight: 700; margin-bottom: 12px; }
+.project-desc { font-size: 13px; color: var(--gray); line-height: 1.7; margin-bottom: 24px; }
+.project-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
+.tag { font-family: var(--mono); font-size: 10px; letter-spacing: 1px; padding: 4px 10px; border: 1px solid var(--border); color: var(--gray); text-transform: uppercase; }
+.project-links { display: flex; gap: 12px; }
+.project-link { font-size: 12px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; color: var(--green); border-bottom: 1px solid var(--green-border); padding-bottom: 2px; transition: border-color 0.3s; }
+.project-link:hover { border-color: var(--green); }
+.project-featured { border-color: var(--green-border); }
+.project-featured .project-badge { color: var(--green); }
+
+/* ===== ANIMATIONS ===== */
+@keyframes fadeUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  #navbar { padding: 16px 24px; }
+  .nav-links { display: none; flex-direction: column; position: absolute; top: 100%; left: 0; right: 0; background: var(--dark); padding: 24px; gap: 20px; border-bottom: 1px solid var(--border); }
+  .nav-links.open { display: flex; }
+  .nav-toggle { display: block; }
+  .hero { padding: 100px 24px 60px; }
+  .hero-bg-text { font-size: 50vw; }
+  .section { padding: 60px 24px; }
+  .section-dark { padding: 60px 24px; }
+  .about-grid { grid-template-columns: 1fr; }
+  .about-cards { grid-template-columns: 1fr; }
+  .synthese-stats { grid-template-columns: 1fr 1fr; }
+  .contact-grid { grid-template-columns: 1fr; }
+  .projects-grid { grid-template-columns: 1fr; }
+  .scroll-hint { display: none; }
+  .skill-item { grid-template-columns: 140px 1fr 36px; }
+}
+!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mes Projets | Yanis Duarte</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .page-hero { padding: 160px 60px 80px; max-width: 1200px; margin: 0 auto; }
+    .page-hero h1 { font-size: clamp(40px, 6vw, 72px); font-weight: 700; margin-bottom: 16px; }
+    .page-hero p { font-size: 16px; color: rgba(232,232,232,0.55); max-width: 540px; line-height: 1.8; }
+    .filters { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 48px; }
+    .filter-btn { font-family: var(--mono); font-size: 11px; letter-spacing: 2px; text-transform: uppercase; padding: 8px 20px; border: 1px solid var(--border); background: none; color: var(--gray); cursor: pointer; transition: all 0.3s; }
+    .filter-btn.active, .filter-btn:hover { border-color: var(--green); color: var(--green); background: var(--green-dim); }
+    .projects-section { padding: 0 60px 100px; max-width: 1200px; margin: 0 auto; }
+    .hackathon-banner {
+      background: var(--dark); border: 1px solid var(--green-border);
+      padding: 48px; margin-bottom: 48px; position: relative; overflow: hidden;
+      display: grid; grid-template-columns: 1fr auto; gap: 40px; align-items: center;
+    }
+    .hackathon-banner::before { content: 'HACKATHON'; position: absolute; font-family: var(--mono); font-size: 120px; font-weight: 700; color: rgba(57,255,20,0.03); right: -10px; top: 50%; transform: translateY(-50%); }
+    .hackathon-label { font-family: var(--mono); font-size: 10px; letter-spacing: 3px; color: var(--green); text-transform: uppercase; margin-bottom: 12px; }
+    .hackathon-title { font-size: 32px; font-weight: 700; margin-bottom: 12px; }
+    .hackathon-desc { font-size: 14px; color: var(--gray); line-height: 1.7; max-width: 560px; }
+    .hackathon-meta { display: flex; gap: 24px; margin-top: 20px; }
+    .hackathon-meta span { font-family: var(--mono); font-size: 11px; color: var(--green); letter-spacing: 1px; }
+    .hackathon-btns { display: flex; flex-direction: column; gap: 12px; z-index: 1; }
+    @media(max-width:768px) {
+      .page-hero { padding: 120px 24px 60px; }
+      .projects-section { padding: 0 24px 60px; }
+      .hackathon-banner { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav id="navbar">
+    <a href="index.html" class="nav-logo">YD</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="index.html#about">Qui je suis</a></li>
+      <li><a href="index.html#skills">Compétences</a></li>
+      <li><a href="projects.html" class="active">Projets</a></li>
+      <li><a href="tableau-synthese.html">Tableau de Synthèse</a></li>
+      <li><a href="cv.html">Mon CV</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle">☰</button>
+  </nav>
+
+  <div class="page-hero">
+    <div class="section-number">Projets</div>
+    <h1>Mes <span class="accent">Réalisations</span></h1>
+    <p>Projets réalisés en formation, en hackathon et en autodidacte. Infrastructure, web, DevOps.</p>
+  </div>
+
+  <div class="projects-section">
+    <div class="filters">
+      <button class="filter-btn active">Tous</button>
+      <button class="filter-btn">Infrastructure</button>
+      <button class="filter-btn">Web</button>
+      <button class="filter-btn">Hackathon</button>
+    </div>
+
+    <!-- HACKATHON NOVA - mis en avant -->
+    <div class="hackathon-banner">
+      <div>
+        <div class="hackathon-label">🚀 Hackathon Janvier 2026</div>
+        <div class="hackathon-title">NOVA – Plateforme Événementielle</div>
+        <div class="hackathon-desc">Projet en équipe de 8 personnes. Plateforme web complète pour l'organisation d'événements (ski, bowling, escape game, laser game...). Mon rôle : Infrastructure & DevOps — déploiement sur alwaysdata, configuration serveur, gestion technique.</div>
+        <div class="hackathon-meta">
+          <span>👥 8 personnes</span>
+          <span>⚙️ Infra & DevOps</span>
+          <span>🌐 En ligne</span>
+        </div>
+      </div>
+      <div class="hackathon-btns">
+        <a href="https://nova.alwaysdata.net/" target="_blank" class="btn-primary">Voir le site</a>
+        <a href="tableau-synthese.html" class="btn-outline">Documentation</a>
+      </div>
+    </div>
+
+    <!-- GRILLE PROJETS -->
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-badge">Infrastructure · 2026</div>
+        <div class="project-title">Déploiement GLPI</div>
+        <div class="project-desc">Installation et configuration complète de GLPI sur Debian. Inventaire automatisé avec agents, gestion de tickets, exports CSV. Compétences C1 et C7 validées à 100%.</div>
+        <div class="project-tags"><span class="tag">Debian</span><span class="tag">Apache</span><span class="tag">MariaDB</span><span class="tag">PHP</span></div>
+        <div class="project-links"><a href="tableau-synthese.html" class="project-link">Documentation →</a></div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-badge">Web · 2026</div>
+        <div class="project-title">Landing Page Nova Events</div>
+        <div class="project-desc">Landing page pour Nova Events publiée via GitHub Pages. Intégration Google Analytics (G-BF2DZWC2FC) pour le suivi d'audience. Compétence C11 validée à 100%.</div>
+        <div class="project-tags"><span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">GitHub Pages</span><span class="tag">Analytics</span></div>
+        <div class="project-links"><a href="https://duarteyanis9-prog.github.io/landing-page/" target="_blank" class="project-link">Voir le site →</a></div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-badge">DevOps · 2026</div>
+        <div class="project-title">Déploiement Multi-Services</div>
+        <div class="project-desc">Déploiement de services HTML et PHP sur Apache, hébergement sur alwaysdata, publication GitHub Pages. Introduction à Docker et aux grands clouds (AWS, Azure, GCP). C17 à 100%.</div>
+        <div class="project-tags"><span class="tag">Apache</span><span class="tag">Docker</span><span class="tag">alwaysdata</span><span class="tag">Cloud</span></div>
+        <div class="project-links"><a href="tableau-synthese.html" class="project-link">Documentation →</a></div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-badge">Infrastructure · 2026</div>
+        <div class="project-title">Portfolio Personnel</div>
+        <div class="project-desc">Portfolio interactif développé avec HTML, CSS et JavaScript vanilla. Design dark avec accent vert, animations, responsive. Publié sur GitHub Pages.</div>
+        <div class="project-tags"><span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">JavaScript</span></div>
+        <div class="project-links"><a href="index.html" class="project-link">Voir →</a></div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-logo">YD</div>
+    <p class="footer-copy">Conçu et développé avec <span class="accent">♥</span> par Yanis Duarte</p>
+    <p class="footer-copy">© 2026 — Tous droits réservés</p>
+  </footer>
+
+  <script>
+    window.addEventListener('scroll', () => {
+      document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50);
+    });
+    document.getElementById('navToggle').addEventListener('click', () => {
+      document.querySelector('.nav-links').classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tableau de Synthèse | Yanis Duarte</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .page-hero { padding: 160px 60px 60px; max-width: 1200px; margin: 0 auto; }
+    .page-hero h1 { font-size: clamp(36px, 5vw, 64px); font-weight: 700; margin-bottom: 16px; }
+    .page-hero p { font-size: 16px; color: rgba(232,232,232,0.55); max-width: 600px; line-height: 1.8; }
+    .synthese-section { padding: 0 60px 100px; max-width: 1200px; margin: 0 auto; }
+
+    .comp-block { margin-bottom: 60px; }
+    .comp-header { display: flex; justify-content: space-between; align-items: center; padding: 20px 24px; background: var(--dark); border-left: 3px solid var(--green); margin-bottom: 20px; }
+    .comp-header h2 { font-size: 18px; font-weight: 700; }
+    .comp-header .badge { font-family: var(--mono); font-size: 10px; letter-spacing: 2px; color: var(--green); background: var(--green-dim); padding: 4px 12px; border: 1px solid var(--green-border); }
+
+    .comp-table { width: 100%; border-collapse: collapse; }
+    .comp-table th { font-family: var(--mono); font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: var(--gray); padding: 12px 16px; border-bottom: 1px solid var(--border); text-align: left; }
+    .comp-table td { padding: 16px; border-bottom: 1px solid var(--border); font-size: 13px; vertical-align: top; line-height: 1.6; }
+    .comp-table tr:hover td { background: rgba(57,255,20,0.03); }
+    .comp-code { font-family: var(--mono); color: var(--green); font-size: 12px; font-weight: 700; }
+    .comp-name { font-weight: 600; color: var(--white); }
+    .comp-project { color: rgba(232,232,232,0.7); }
+    .comp-period { font-family: var(--mono); font-size: 11px; color: var(--gray); white-space: nowrap; }
+    .status-ok { display: inline-flex; align-items: center; gap: 4px; font-family: var(--mono); font-size: 10px; letter-spacing: 1px; color: var(--green); background: var(--green-dim); padding: 3px 10px; border: 1px solid var(--green-border); }
+    .doc-links { display: flex; flex-direction: column; gap: 6px; }
+    .doc-link { font-size: 11px; color: var(--green); border-bottom: 1px solid var(--green-border); display: inline-block; padding-bottom: 1px; cursor: pointer; }
+
+    .synthese-intro { background: var(--dark); border: 1px solid var(--border); border-top: 3px solid var(--green); padding: 40px; margin-bottom: 60px; display: grid; grid-template-columns: repeat(4,1fr); gap: 24px; }
+    .intro-stat { text-align: center; }
+    .intro-num { font-family: var(--mono); font-size: 40px; font-weight: 700; color: var(--green); display: block; }
+    .intro-label { font-size: 12px; color: var(--gray); text-transform: uppercase; letter-spacing: 1px; margin-top: 4px; }
+
+    @media(max-width:768px) {
+      .page-hero { padding: 120px 24px 40px; }
+      .synthese-section { padding: 0 24px 60px; }
+      .synthese-intro { grid-template-columns: 1fr 1fr; }
+      .comp-table { font-size: 12px; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav id="navbar">
+    <a href="index.html" class="nav-logo">YD</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="index.html#about">Qui je suis</a></li>
+      <li><a href="index.html#skills">Compétences</a></li>
+      <li><a href="projects.html">Projets</a></li>
+      <li><a href="tableau-synthese.html">Tableau de Synthèse</a></li>
+      <li><a href="cv.html">Mon CV</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle">☰</button>
+  </nav>
+
+  <div class="page-hero">
+    <div class="section-number">BTS SIO – SISR</div>
+    <h1>Tableau de <span class="accent">Synthèse</span></h1>
+    <p>Récapitulatif de toutes les compétences mises en œuvre durant ma formation BTS SIO option SISR à l'EFREI Paris.</p>
+  </div>
+
+  <div class="synthese-section">
+    <div class="synthese-intro">
+      <div class="intro-stat"><span class="intro-num">4</span><span class="intro-label">Livrables 100%</span></div>
+      <div class="intro-stat"><span class="intro-num">5</span><span class="intro-label">Compétences</span></div>
+      <div class="intro-stat"><span class="intro-num">1</span><span class="intro-label">Hackathon</span></div>
+      <div class="intro-stat"><span class="intro-num">SISR</span><span class="intro-label">Option</span></div>
+    </div>
+
+    <!-- BLOC 1 - GESTION PATRIMOINE -->
+    <div class="comp-block">
+      <div class="comp-header">
+        <h2>1. Gérer le patrimoine informatique</h2>
+        <span class="badge">✅ VALIDÉ</span>
+      </div>
+      <table class="comp-table">
+        <thead>
+          <tr>
+            <th>Code</th>
+            <th>Compétence</th>
+            <th>Réalisation</th>
+            <th>Période</th>
+            <th>Statut</th>
+            <th>Documentation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="comp-code">C1</span></td>
+            <td><span class="comp-name">Recenser et identifier les ressources numériques</span></td>
+            <td class="comp-project">Installation GLPI sur Debian, déploiement d'agents d'inventaire sur 2 VMs, exports CSV ordinateurs et logiciels (27/01/2026)</td>
+            <td class="comp-period">Oct 2025 –<br>Jan 2026</td>
+            <td><span class="status-ok">✓ 100%</span></td>
+            <td><div class="doc-links"><span class="doc-link">Documentation technique</span></div></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- BLOC 2 - INCIDENTS -->
+    <div class="comp-block">
+      <div class="comp-header">
+        <h2>2. Répondre aux incidents et aux demandes</h2>
+        <span class="badge">✅ VALIDÉ</span>
+      </div>
+      <table class="comp-table">
+        <thead>
+          <tr>
+            <th>Code</th>
+            <th>Compétence</th>
+            <th>Réalisation</th>
+            <th>Période</th>
+            <th>Statut</th>
+            <th>Documentation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="comp-code">C7</span></td>
+            <td><span class="comp-name">Collecter, suivre et orienter des demandes</span></td>
+            <td class="comp-project">Configuration GLPI : profils (Super Admin, Technicien, Self-service), entités Paris/Lyon, tickets avec catégories ITIL, règles d'affectation automatique. Exports utilisateurs, entités, tickets (15/05/2026)</td>
+            <td class="comp-period">Sept 2025 –<br>Mai 2026</td>
+            <td><span class="status-ok">✓ 100%</span></td>
+            <td><div class="doc-links"><span class="doc-link">Documentation technique</span></div></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- BLOC 3 - PRESENCE EN LIGNE -->
+    <div class="comp-block">
+      <div class="comp-header">
+        <h2>3. Développer la présence en ligne</h2>
+        <span class="badge">✅ VALIDÉ</span>
+      </div>
+      <table class="comp-table">
+        <thead>
+          <tr>
+            <th>Code</th>
+            <th>Compétence</th>
+            <th>Réalisation</th>
+            <th>Période</th>
+            <th>Statut</th>
+            <th>Documentation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="comp-code">C11</span></td>
+            <td><span class="comp-name">Référencer les services en ligne et mesurer leur visibilité</span></td>
+            <td class="comp-project">Création landing page Nova Events sur GitHub Pages, intégration Google Analytics (G-BF2DZWC2FC), génération de vues, export rapport trafic CSV. Site : duarteyanis9-prog.github.io/landing-page/</td>
+            <td class="comp-period">Fév 2026 –<br>Mai 2026</td>
+            <td><span class="status-ok">✓ 100%</span></td>
+            <td><div class="doc-links"><a href="https://duarteyanis9-prog.github.io/landing-page/" target="_blank" class="doc-link">Site en ligne →</a></div></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- BLOC 4 - DEPLOYER UN SERVICE -->
+    <div class="comp-block">
+      <div class="comp-header">
+        <h2>4. Mettre à disposition un service informatique</h2>
+        <span class="badge">✅ VALIDÉ</span>
+      </div>
+      <table class="comp-table">
+        <thead>
+          <tr>
+            <th>Code</th>
+            <th>Compétence</th>
+            <th>Réalisation</th>
+            <th>Période</th>
+            <th>Statut</th>
+            <th>Documentation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="comp-code">C17</span></td>
+            <td><span class="comp-name">Déployer un service</span></td>
+            <td class="comp-project">Déploiement Apache (HTML + PHP) sur Debian VM port 8080, hébergement sur alwaysdata, publication GitHub Pages, introduction Docker (images, conteneurs, Dockerfile), présentation AWS/Azure/GCP (16/05/2026)</td>
+            <td class="comp-period">Oct 2025 –<br>Mai 2026</td>
+            <td><span class="status-ok">✓ 100%</span></td>
+            <td><div class="doc-links"><span class="doc-link">Documentation technique</span></div></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- HACKATHON -->
+    <div class="comp-block">
+      <div class="comp-header">
+        <h2>Projet Hackathon – NOVA</h2>
+        <span class="badge">🚀 EFREI 2026</span>
+      </div>
+      <table class="comp-table">
+        <thead>
+          <tr>
+            <th>Projet</th>
+            <th>Description</th>
+            <th>Rôle</th>
+            <th>Compétences mobilisées</th>
+            <th>Lien</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="comp-name">NOVA – Plateforme Événementielle</span></td>
+            <td class="comp-project">Plateforme web complète pour l'organisation d'événements (ski, bowling, escape game...) développée en équipe de 8 personnes lors du Hackathon EFREI Janvier 2026.</td>
+            <td class="comp-project"><strong style="color:var(--green)">Infrastructure & DevOps</strong> — déploiement sur alwaysdata, configuration serveur, gestion technique de la plateforme.</td>
+            <td class="comp-project">C1, C7, C11, C17</td>
+            <td><a href="https://nova.alwaysdata.net/" target="_blank" class="doc-link">nova.alwaysdata.net →</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-logo">YD</div>
+    <p class="footer-copy">Conçu et développé avec <span class="accent">♥</span> par Yanis Duarte</p>
+    <p class="footer-copy">© 2026 — Tous droits réservés</p>
+  </footer>
+
+  <script>
+    window.addEventListener('scroll', () => {
+      document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50);
+    });
+    document.getElementById('navToggle').addEventListener('click', () => {
+      document.querySelector('.nav-links').classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
+!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mon CV | Yanis Duarte</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .page-hero { padding: 160px 60px 60px; max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: flex-end; }
+    .page-hero h1 { font-size: clamp(36px, 5vw, 64px); font-weight: 700; margin-bottom: 12px; }
+    .page-hero p { font-size: 16px; color: rgba(232,232,232,0.55); }
+    .cv-section { padding: 0 60px 100px; max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 300px 1fr; gap: 60px; }
+    .cv-sidebar { position: sticky; top: 100px; align-self: start; }
+    .cv-avatar { width: 100px; height: 100px; background: linear-gradient(135deg, #1a1a1e, #2a2a2e); border: 2px solid var(--green-border); display: flex; align-items: center; justify-content: center; font-family: var(--mono); font-size: 32px; font-weight: 700; color: var(--green); margin-bottom: 24px; }
+    .cv-name { font-size: 22px; font-weight: 700; margin-bottom: 4px; }
+    .cv-role { font-family: var(--mono); font-size: 12px; color: var(--green); letter-spacing: 2px; text-transform: uppercase; margin-bottom: 24px; }
+    .cv-contact { display: flex; flex-direction: column; gap: 10px; margin-bottom: 32px; }
+    .cv-contact a, .cv-contact span { font-size: 13px; color: rgba(232,232,232,0.6); display: flex; align-items: center; gap: 8px; transition: color 0.3s; }
+    .cv-contact a:hover { color: var(--green); }
+    .cv-sidebar-section { margin-bottom: 32px; }
+    .cv-sidebar-title { font-family: var(--mono); font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: var(--green); margin-bottom: 16px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+    .cv-skills-list { display: flex; flex-direction: column; gap: 8px; }
+    .cv-skill-item { display: flex; justify-content: space-between; align-items: center; font-size: 13px; }
+    .cv-skill-dots { display: flex; gap: 4px; }
+    .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--border); }
+    .dot.filled { background: var(--green); }
+    .cv-lang { display: flex; justify-content: space-between; font-size: 13px; margin-bottom: 8px; color: rgba(232,232,232,0.7); }
+    .cv-lang span:last-child { color: var(--green); font-family: var(--mono); font-size: 11px; }
+
+    .cv-main-section { margin-bottom: 48px; }
+    .cv-main-title { font-size: 22px; font-weight: 700; margin-bottom: 24px; padding-bottom: 12px; border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 12px; }
+    .cv-main-title::before { content: ''; width: 4px; height: 24px; background: var(--green); display: block; }
+    .cv-entry { margin-bottom: 28px; padding-left: 20px; border-left: 1px solid var(--border); transition: border-color 0.3s; }
+    .cv-entry:hover { border-color: var(--green-border); }
+    .cv-entry-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 4px; }
+    .cv-entry-title { font-size: 16px; font-weight: 600; }
+    .cv-entry-date { font-family: var(--mono); font-size: 11px; color: var(--green); background: var(--green-dim); padding: 3px 10px; border: 1px solid var(--green-border); white-space: nowrap; }
+    .cv-entry-sub { font-size: 13px; color: var(--gray); margin-bottom: 8px; }
+    .cv-entry-desc { font-size: 13px; color: rgba(232,232,232,0.6); line-height: 1.7; }
+    .cv-entry-desc ul { padding-left: 16px; margin-top: 8px; }
+    .cv-entry-desc li { margin-bottom: 4px; }
+
+    @media(max-width:768px) {
+      .page-hero { padding: 120px 24px 40px; flex-direction: column; gap: 20px; }
+      .cv-section { padding: 0 24px 60px; grid-template-columns: 1fr; }
+      .cv-sidebar { position: static; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav id="navbar">
+    <a href="index.html" class="nav-logo">YD</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="index.html#about">Qui je suis</a></li>
+      <li><a href="index.html#skills">Compétences</a></li>
+      <li><a href="projects.html">Projets</a></li>
+      <li><a href="tableau-synthese.html">Tableau de Synthèse</a></li>
+      <li><a href="cv.html">Mon CV</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle">☰</button>
+  </nav>
+
+  <div class="page-hero">
+    <div>
+      <div class="section-number">Curriculum Vitae</div>
+      <h1>Mon <span class="accent">CV</span></h1>
+      <p>Étudiant BTS SIO SISR – Infrastructure & Réseaux</p>
+    </div>
+  </div>
+
+  <div class="cv-section">
+    <!-- SIDEBAR -->
+    <aside class="cv-sidebar">
+      <div class="cv-avatar">YD</div>
+      <div class="cv-name">Yanis Duarte</div>
+      <div class="cv-role">BTS SIO · SISR</div>
+      <div class="cv-contact">
+        <a href="mailto:duarteyanis9@gmail.com">📧 duarteyanis9@gmail.com</a>
+        <a href="https://github.com/duarteyanis9-prog" target="_blank">💻 github.com/duarteyanis9-prog</a>
+        <span>📍 Vitry-sur-Seine, 94400</span>
+      </div>
+
+      <div class="cv-sidebar-section">
+        <div class="cv-sidebar-title">Compétences techniques</div>
+        <div class="cv-skills-list">
+          <div class="cv-skill-item"><span>Linux / Debian</span><div class="cv-skill-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+          <div class="cv-skill-item"><span>Réseaux TCP/IP</span><div class="cv-skill-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+          <div class="cv-skill-item"><span>VMware / VirtualBox</span><div class="cv-skill-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+          <div class="cv-skill-item"><span>Apache / MariaDB</span><div class="cv-skill-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+          <div class="cv-skill-item"><span>HTML / CSS / JS</span><div class="cv-skill-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+          <div class="cv-skill-item"><span>Python / PHP</span><div class="cv-skill-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div><div class="dot"></div></div></div>
+          <div class="cv-skill-item"><span>Docker</span><div class="cv-skill-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div><div class="dot"></div></div></div>
+        </div>
+      </div>
+
+      <div class="cv-sidebar-section">
+        <div class="cv-sidebar-title">Langues</div>
+        <div class="cv-lang"><span>Français</span><span>Natif</span></div>
+        <div class="cv-lang"><span>Anglais</span><span>Intermédiaire</span></div>
+        <div class="cv-lang"><span>Portugais</span><span>Notions</span></div>
+      </div>
+
+      <div class="cv-sidebar-section">
+        <div class="cv-sidebar-title">Centres d'intérêt</div>
+        <div style="display:flex;flex-wrap:wrap;gap:8px;">
+          <span style="font-size:12px;border:1px solid var(--border);padding:4px 10px;color:var(--gray);">✈️ Aviation</span>
+          <span style="font-size:12px;border:1px solid var(--border);padding:4px 10px;color:var(--gray);">🏃 Running</span>
+          <span style="font-size:12px;border:1px solid var(--border);padding:4px 10px;color:var(--gray);">💪 Sport</span>
+          <span style="font-size:12px;border:1px solid var(--border);padding:4px 10px;color:var(--gray);">💻 Tech</span>
+          <span style="font-size:12px;border:1px solid var(--border);padding:4px 10px;color:var(--gray);">🎮 Gaming</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- MAIN -->
+    <main>
+      <div class="cv-main-section">
+        <h2 class="cv-main-title">Formation</h2>
+        <div class="cv-entry">
+          <div class="cv-entry-header">
+            <div class="cv-entry-title">BTS SIO – Services Informatiques aux Organisations</div>
+            <div class="cv-entry-date">2025 – 2027</div>
+          </div>
+          <div class="cv-entry-sub">EFREI Paris – CFA Numia, Villejuif</div>
+          <div class="cv-entry-desc">Option SISR (Solutions d'Infrastructure, Systèmes et Réseaux). Grande école d'ingénieurs informatique habilitée par la CTI. Formation aux réseaux, systèmes Linux, virtualisation, déploiement de services.</div>
+        </div>
+        <div class="cv-entry">
+          <div class="cv-entry-header">
+            <div class="cv-entry-title">Baccalauréat Professionnel Vente</div>
+            <div class="cv-entry-date">2024</div>
+          </div>
+          <div class="cv-entry-sub">Lycée Marianne</div>
+          <div class="cv-entry-desc">
+            Obtention du Bac Pro. Chef-d'œuvre : organisation d'un événement job dating au lycée Marianne. Missions en entreprise incluant des exercices TPO et une mission de prospection pour un salon commercial à Lille.
+          </div>
+        </div>
+      </div>
+
+      <div class="cv-main-section">
+        <h2 class="cv-main-title">Projets & Réalisations</h2>
+        <div class="cv-entry">
+          <div class="cv-entry-header">
+            <div class="cv-entry-title">Hackathon NOVA – Plateforme Événementielle</div>
+            <div class="cv-entry-date">Jan 2026</div>
+          </div>
+          <div class="cv-entry-sub">EFREI Paris – Projet en équipe de 8 personnes</div>
+          <div class="cv-entry-desc">
+            Développement d'une plateforme événementielle complète en équipe.
+            <ul>
+              <li>Rôle : Infrastructure & DevOps</li>
+              <li>Déploiement sur alwaysdata, configuration serveur</li>
+              <li>Gestion technique de la plateforme Nova</li>
+              <li>Site : nova.alwaysdata.net</li>
+            </ul>
+          </div>
+        </div>
+        <div class="cv-entry">
+          <div class="cv-entry-header">
+            <div class="cv-entry-title">Déploiement GLPI & Gestion de Parc</div>
+            <div class="cv-entry-date">Oct 2025 – Mai 2026</div>
+          </div>
+          <div class="cv-entry-sub">EFREI Paris – Livrables C1 & C7</div>
+          <div class="cv-entry-desc">
+            Installation et configuration de GLPI sur Debian, inventaire automatisé, gestion de tickets, exports des ressources. Compétences C1 et C7 validées à 100%.
+          </div>
+        </div>
+        <div class="cv-entry">
+          <div class="cv-entry-header">
+            <div class="cv-entry-title">Déploiement Multi-Services (C17)</div>
+            <div class="cv-entry-date">Mai 2026</div>
+          </div>
+          <div class="cv-entry-sub">EFREI Paris – Livrable C17</div>
+          <div class="cv-entry-desc">
+            Déploiement Apache HTML/PHP, hébergement alwaysdata, GitHub Pages, introduction Docker et cloud (AWS, Azure, GCP).
+          </div>
+        </div>
+      </div>
+
+      <div class="cv-main-section">
+        <h2 class="cv-main-title">Objectif Professionnel</h2>
+        <div class="cv-entry">
+          <div class="cv-entry-header">
+            <div class="cv-entry-title">Projet Pilote ✈️</div>
+            <div class="cv-entry-date">En cours</div>
+          </div>
+          <div class="cv-entry-sub">Objectif long terme</div>
+          <div class="cv-entry-desc">
+            Préparation au Brevet d'Initiation Aéronautique (BIA), objectif intégrer le programme préparatoire CNFAS, obtenir le PPL (Private Pilot Licence). Renforcement des bases en mathématiques, anglais et sciences.
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <footer>
+    <div class="footer-logo">YD</div>
+    <p class="footer-copy">Conçu et développé avec <span class="accent">♥</span> par Yanis Duarte</p>
+    <p class="footer-copy">© 2026 — Tous droits réservés</p>
+  </footer>
+
+  <script>
+    window.addEventListener('scroll', () => {
+      document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50);
+    });
+    document.getElementById('navToggle').addEventListener('click', () => {
+      document.querySelector('.nav-links').classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
